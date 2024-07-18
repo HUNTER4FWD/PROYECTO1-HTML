@@ -139,11 +139,13 @@ width: 100%;
     }
 
 }
-#firlas {
+.firlas {
    text-align: end;
    padding: 20px;
-   flex-direction: row;
-}
+   flex-direction: row; 
+   display: flex;
+right: 120px;
+}     
 .deadbanner {
     display: flex;
     justify-content: center;
