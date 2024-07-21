@@ -155,3 +155,348 @@ text-align: center;
 color: indigo;
 
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: white;
+}
+header {
+    background-color: white;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    height: 70px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+nav {
+    background-color: #182951;
+    padding: 10px 0;
+    height:  70px;
+    text-align: right ;
+    display: flex;
+justify-content: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.hero {
+    background: url('https://www.imas.go.cr/assets/img/banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    top: 50px   ;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.content {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.slider-box {
+        width: 1280px;
+        height: auto;
+        margin: 50px auto 0;
+        overflow: hidden;
+}
+.slider-box ul {
+display: flex;
+padding: 0;
+width: 400%;
+animation: slide 10s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+width: 100%;
+list-style: none;
+position: relative;
+}
+.texto {
+    position: absolute;
+    text-align: start;
+    padding: 0 250px;
+    top: 250px;
+    color: #f4f4f4;
+}
+.texto h2{
+font-size: 45px;
+margin-bottom: 35px;
+}
+.slider-box img {
+width: 100%;
+}
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+    .slider-box {
+        width: 100%;
+    }
+    .texto {
+        top: 50px;
+        padding: 0 25px;
+    }
+    .texto h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .texto p {
+        font-size: 15px;
+    }
+
+}
+.firlas {
+   text-align: end;
+   padding: 20px;
+   flex-direction: row; 
+   display: flex;
+right: 120px;
+}     
+.deadbanner {
+    display: flex;
+    justify-content: center;
+}
+.FUCKTER {
+text-align: center;
+color: indigo;
+
+}
+.papabar{
+display: flex;
+justify-content: space-around;
+height: 165px   ;
+}
+.imgplz {
+    width: 55%;
+}
+
+.xxxx {
+    padding: 0 15px;
+ float: left;
+  width: 33.3%; 
+  text-align: justify;
+}
+.xxxx2 {
+
+    padding: 0 15px;    
+ width: 33.3%;
+}
+.xxxx3 {
+    padding: 0 15px;
+     float: right;
+      width: 33.3%;
+       text-align: justify; 
+
+}
+
+ul{
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+  }
+  
+  ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:-10px;
+    font-size:15px;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform:uppercase;
+    transition:0.5s;
+    
+  }
+  
+  ul:hover li a{
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
+  }
+  
+  ul li a:hover{
+    transform:scale(2);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#ff497c;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  
+  ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }
+
+  .defence {
+    display: flex;
+    background-color: white;
+    text-align: center;
+  }
+.FBSUCK{
+
+padding: 10px;
+}
+.FBSUCK1 {
+text-align: center;
+padding: 10px;
+}
+.FBSUCK2 {
+text-align: center;
+padding: 10px;
+font-size: large;
+}
+.pipeteamo {
+display: flex;
+text-align: center;
+
+}
+.papapipe {
+display: flex;
+padding: 10px;
+}
+.FUCKTER {
+    background-color: #182951;
+display: flex;
+color: white;
+text-align: center;
+padding: 10px;
+
+}
+.unl123{
+    text-align: center;
+
+}
+.centralcontacto{
+    display: flex;
+
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  }
