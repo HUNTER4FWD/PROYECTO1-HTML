@@ -23,7 +23,7 @@ header h1 {
     font-size: 2em;
 }
 nav {
-    background-color: hwb(263 0% 17%);
+    background-color: #182951;
     padding: 10px 0;
     height: 70px;
 }
@@ -36,6 +36,9 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    padding:20px     ;
+    font-size: large;
+   font-family: Arial, Helvetica, sans-serif;
 }
 nav ul li a {
     color: white;
@@ -54,7 +57,9 @@ nav ul li a {
     color: white;
     text-align: center;
     padding: 50px 0;
+    top: 50px   ;
 }
+
 .hero h2 {
     margin: 0;
     font-size: 2.5em;
@@ -153,5 +158,32 @@ right: 120px;
 .FUCKTER {
 text-align: center;
 color: indigo;
+
+}
+.papabar{
+display: flex;
+justify-content: space-around;
+height: 165px   ;
+}
+.imgplz {
+    width: 55%;
+}
+
+.xxxx {
+    padding: 0 15px;
+ float: left;
+  width: 33.3%; 
+  text-align: justify;
+}
+.xxxx2 {
+
+    padding: 0 15px;    
+ width: 33.3%;
+}
+.xxxx3 {
+    padding: 0 15px;
+     float: right;
+      width: 33.3%;
+       text-align: justify; 
 
 }
